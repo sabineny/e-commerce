@@ -1,38 +1,105 @@
-.App {
+
+.cards{
+  width: 300px;
+  height: 50vh;
+  background-color: rgb(172, 160, 160);
+  box-shadow: silver 1px ;
+ 
+}
+nav{
+  background-color: rgb(189, 223, 219);
+  height: 40px;
+}
+.all{
+  /* display: flex; */
+  gap: 60px;
+  margin-left: 60px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+}
+
+
+.card{
+  width: 300px;
+  height: 70vh;
+  
+}
+button{
+  color: white;
+  background-color: rgb(46, 117, 231);
+  border: none;
+  padding: 7px;
+
+  
+}
+.popup form{
+  display: block;
+}
+.popup button{
+  width: 100px;
+  border-radius: 7px;
+  margin-left: 120px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.app{
+  width: 400px;
+  height: 60vh;
+  background-color: rgb(215, 213, 213);
+  margin-left: 600px;
+  margin-top: 60px;
+  
+}
+.allcards{
+display: flex;
+gap: 30px;
+margin-left: 100px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: auto;
+
+
+
+}
+
+h3{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  input{
+width: 350px;
+gap: 10px;
+padding: 7px;
+
+border-radius: 7px;
+border: none;
+}
+.inputs{
+  margin-left: 28px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#textarea{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 350px;
+}
+.popup{
+  position: absolute;
+  height: 100vh;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.506);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  margin-left: 370px;
+  margin-top: 2px;
 }
+a:hover h1{
+color: red;
+text-decoration-line: none;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
